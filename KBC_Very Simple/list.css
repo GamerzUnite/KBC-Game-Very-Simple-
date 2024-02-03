@@ -1,0 +1,89 @@
+/*.background{	
+	background-image:url("public/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.background1{	
+	background-image:url("public/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+ul {
+	
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 50px;
+	color: white;	
+}
+ol{
+
+	align-content: center;
+	padding-bottom: 4px;
+}
+
+.colored-box {
+  border-style:solid; 
+  padding: 10px; /* Adds some padding inside the box */
+}
+
+.timer
+{
+	margin-top: 150px;
+	padding-bottom: 30px;
+	color: white;
+	font-size:40px;
+
+}
+.righ
+{
+	background-color: #010230;
+}
+th{
+	font-size: 20px;
+	color: white;
+}
+.grade{
+background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 53%, rgba(51,6,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+.rectangle {
+  width: 200px;
+  height: 80px;
+  border: 2px solid #ffffff; /* Border style and color */
+  border-radius: 10px; /* Smooth rounded corners */
+  padding: 10px; /* Spacing inside the rectangle */
+}
+
+button{
+	height: 40px;
+}
+#timerDisplay.timer.circle {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 7px solid #FFFF; /* You can adjust the color */
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+}
+/* Basic button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Default background color */
+  color: #ffffff; /* Default text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change color on hover */
+.button:hover {
+  background-color: #2980b9; /* Color on hover */
+}
+
+/* Change color when selected */
+.button:active {
+  background-color: #1f618d; /* Color when button is clicked/selected */
+}
